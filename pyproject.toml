@@ -64,6 +64,7 @@ tests = ["tests", "*/test-repo/tests"]
 exclude_lines = ["pragma: no cover", "assert False", "raise NotImplemented", "\\.\\.\\."]
 
 [tool.coverage.run]
+source = ["test_repo"]
 branch = true
 data_file = "$TOP/.coverage"
 omit = [
