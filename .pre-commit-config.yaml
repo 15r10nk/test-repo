@@ -1,0 +1,19 @@
+repos:
+- repo: local
+  hooks:
+  - id: diagnose-ci-git
+    name: Diagnose Git history available in pre-commit.ci
+    entry: python scripts/diagnose_ci_git.py
+    language: python
+    pass_filenames: false
+    always_run: true
+    verbose: true
+    stages: [pre-commit, manual]
+  - id: check-changelog
+    name: Check branch changelog fragment
+    entry: python scripts/check_changelog.py
+    language: python
+    pass_filenames: false
+    always_run: true
+    verbose: true
+    stages: [pre-commit, manual]
