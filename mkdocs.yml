@@ -1,0 +1,8 @@
+site_name: test-repo
+site_url: https://15r10nk.github.io/test-repo/
+repo_url: https://github.com/15r10nk/test-repo
+theme:
+  name: material
+nav:
+- Home: index.md
+- Contributing: contributing.md

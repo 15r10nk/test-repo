@@ -1,0 +1,20 @@
+# Changes here will be overwritten by Copier
+_src_path: git@github.com:15r10nk/project-template.git
+author_email: 15r10nk@polarbit.de
+author_name: Frank Hoffmann
+discord_id: ''
+discord_invite_id: ''
+full_coverage: true
+github_user: 15r10nk
+insider_only: false
+module_name: test_repo
+project_description: Integration test of the prek-based project template.
+project_main: true
+project_name: test-repo
+pypy_versions: []
+python_versions:
+- '3.12'
+- '3.14'
+show_project_logo: false
+test_lowest_deps: true
+use_mkdocs: true
